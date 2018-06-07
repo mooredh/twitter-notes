@@ -3,6 +3,7 @@ const express = require('express');
 const authenticator = require('./authenticator');
 const config = require('./config.json')
 const app = express();
+const PORT = process.env.PORT || config.port
 
 // Add cookie parsing functionality to our express app
 app.use(require('cookie-parser'));
@@ -23,6 +24,6 @@ app.get(url.parse(config.oauth_callback).path, (req, res) => {
 });
 
 // Start listening for requests 
-app.listen(config.port, () => {
+app.listen(PORT, () => {
     console.log(`Listening on port ${port}`);
 });
