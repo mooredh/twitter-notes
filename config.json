@@ -2,10 +2,10 @@
     "port": "8080",
     "request_token_url": "https://api.twitter.com/oath/request_token",
     "access_token_url": "https://api.twitter.com/oath/access_token",
-    "authorize_url": "https://twitter.com/oauth/authorize",
-    "consumer_key": "",
-    "consumer_secret": "",
+    "authorize_url": "https://api.twitter.com/oauth/authorize",
+    "consumer_key": "VfQL5CaSUpE5c0slbJEMKbDk7",
+    "consumer_secret": "8K3UQWDuFr8K4b8O1f1aY1nxLbqdr5wDzmHcXh9F4QuwjKaRvu",
     "oath_version": "1.0",
-    "oauth_signature": "",
-    "oauth_callback": ""
+    "oauth_signature": "HMAC-SHA1",
+    "oauth_callback": "https://enigmatic-depths-58640.herokuapp.com/request_token"
 }
